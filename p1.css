@@ -1,0 +1,32 @@
+.main{
+    display: flex;
+    column-gap: 15px ;
+    row-gap: 10px;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.button {
+    height: 150px;
+    width: 150px;
+    border: 1px solid black;
+    border-radius: 20px;
+}
+.button:hover {
+    box-shadow: 1px 1px 1px black;
+}
+#grey{
+    background-color: grey;
+}
+#white{
+    background-color: white;
+}
+#blue{
+    background-color: rgb(28, 73, 252);
+}
+#purple{
+    background-color: rgb(191, 0, 191);
+}
+#green{
+    background-color: green;
+}
